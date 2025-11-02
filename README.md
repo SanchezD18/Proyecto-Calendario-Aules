@@ -172,16 +172,3 @@ Verifica que el archivo `.env` existe y contiene tus credenciales correctamente.
 
 - `token.json`: Token de autenticación de Google (se genera automáticamente la primera vez que se usa)
 
-## Notas de Seguridad
-
-⚠️ **IMPORTANTE**: Nunca subas al repositorio:
-
-- El archivo `.env` con tus credenciales
-- El archivo `credentials.json` de Google
-- El archivo `token.json` de autenticación
-
-Estos archivos están incluidos en `.gitignore` para proteger tu información.
-
-## Licencia
-
-Este proyecto es de uso personal y educativo.
